@@ -1,0 +1,7 @@
+name: Feng_HealthMessages
+version: '${project.version}'
+main: me.jifeng.Feng_HealthMessages
+api-version: 1.16
+commands:
+  fengheal:
+    aliases: fh

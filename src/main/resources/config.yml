@@ -1,0 +1,21 @@
+#插件版本
+version: 1.0.0
+
+#前缀(prefix)
+prefix: ""
+
+#语言提示
+  #提示类型分别为 title、action_bar、chat三种
+Type: title
+
+#提示类型
+  #聊天
+chat: '&7你对&e %mobs_name% &7造成了&c%damage%&7点伤害 剩余血量: &a%mobs_health%❤&7/%mobs_max_health%❤'
+
+  #bar
+action_bar: '&7%mobs_name% &c&l%mobs_health%❤&7/%mobs_max_health%❤'
+
+  #title
+title: '&c&l%damage%❤'
+ #该标签为title的副标签 无法调用
+sub_title: '&7%mobs_name% &c&l%mobs_health%❤&7/%mobs_max_health%❤'
